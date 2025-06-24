@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         Arunodya
-        </a>
-      </header>
+      <Header />
+      
+      {/* You can add other components or pages here */}
+      <main className="p-4">
+        <h1 className="text-4xl font-bold">Welcome to Wanni Arachchi-express</h1>
+      </main>
     </div>
   );
 }
+
 
 export default App;
